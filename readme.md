@@ -1,0 +1,10 @@
+# Milestone Project 1 - West Norfolk Lawn Tennis Club website
+Welcome to my first milestone project with the Code Institute. The purpose of this project is to demonstrate the skills and knowledge I have learnt so far in the form of a static website, built with HTML and CSS and using Bootstrap as a framework.
+
+## UX & UI
+### Project Goals
+The project goal is to create a static website that is responsive, accessible and coherent to the user. The webpages will have a clear design structure that will be consistant for all pages. This will allow the user of the website to navigate the pages intuitively.
+### Customer Goals
+The customer in this scenario is a local tennis club. The tennis club wants to increase it's online presence in order to improve member numbers and promote various tournaments that are held at the club over the year. The website will give prospective members information about the club (history, facilities, contact information) and make it simple to enquire about a membership. The clubs activities and events will also be shared through the website further showcasing the attractiveness of membership. The club would want members to be able to manage their own memberships online, including payment, and create court bookings however this is not within the scope of this release. Currently court bookings are performed through a third party site, ClubSpark, and memberships are submitted by filling out paper forms. Using a third party site incurs charges for one-off guest fees and memberships fees.
+### Features
+In order to create an easy to use website a navigation bar will be accesible at the top of the page with links to various pages. This navigation bar may be too large for smaller screens therefore it will be made to collapse for mobiles. A carousel of the club's photos will be displayed to allow a new user, at first landing on the page, to cycle through. A welcome section and a news section will also feature on the home page, with the latter linking to other pages and articles dedicated to that news item. The footer of the webpage will include icons for various social media accounts.

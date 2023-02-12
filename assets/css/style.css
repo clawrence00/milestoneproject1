@@ -20,28 +20,30 @@ footer {
     text-align: center;
     color: #3f4A3C;
     background-color: #fff;
-}
-
-.social-links i{
-    font-size: 24px;
-    color: #3f4A3C;
-    background-color: #fff;
-}
-
-footer a {
-    color: #3f4A3C;
-    background-color: #fff;
-    text-decoration: none;
-}
-
-footer i:hover {
-    color: #fff;
-    background-color: #3f4A3C;
-    text-decoration: none;
+    min-height: 120px;
 }
 
 footer a:hover {
     color: #fff;
     background-color: #3f4A3C;
     text-decoration: none;
+    border-radius: 50%;
+    width:80px;
+    height:80px;
+    
 }
+
+footer a {
+    color: #3f4A3C;
+    background-color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 18.815px 0;
+}
+
+footer a div {
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+

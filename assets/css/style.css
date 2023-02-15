@@ -36,15 +36,35 @@ header ul li {
     min-height: 120px;
     color: #fff;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px;
+    text-align: center;
 }
 
+.news a {
+    text-decoration: none;
+    border: solid 1px #fff;
+    color: #fff;
+    min-height: 150px;
+    min-width: 150px;
+    font-size: 36px;
+    text-align: center;
+    padding: 38px 0px;
+    margin: 0px 50px;
+    box-sizing: border-box;
+}
+
+
+.news a div {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
 /*--------------------------------------------------------------------------------------------------Footer*/
 
 .footing {
     color: #3f4A3C;
     background-color: #fff;
     text-align: center;
-    margin-top: 100px;
+    padding: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }

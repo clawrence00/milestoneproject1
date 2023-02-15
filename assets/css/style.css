@@ -6,7 +6,7 @@
     background-color: #fff;
 }
 
-.heding img {
+.heading img {
     height: 100%;
     width: 100%;
 }
@@ -20,12 +20,12 @@ header ul li {
 }
 
 /*--------------------------------------------------------------------------------------------------Carousel*/
-.carousel {
-    background-color: #009b14;
-    min-height: 120px;
+
+.mycarousel {
+    background-color: #3f4A3C;
+    min-height: 100px;
     color: #fff;
 }
-
 
 
 

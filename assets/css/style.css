@@ -39,13 +39,7 @@ header ul li {
 
 /*--------------------------------------------------------------------------------------------------Footer*/
 
-footer {
-    text-align: center;
-    color: #3f4A3C;
-    background-color: #fff;
-    min-height: 120px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+
 
 footer a:hover {
     color: #fff;

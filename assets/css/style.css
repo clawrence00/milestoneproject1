@@ -3,16 +3,15 @@ body {
 }
 
 /*--------------------------------------------------------------------------------------------------Header*/
-
 .heading {
     padding: 0;
     color: #3f4A3C;
     background-color: #fff;
 }
 
-.heading img {
-    height: 100%;
-    width: 100%;
+.heading .navbar-brand #logo {
+    max-height: 120px;
+    width: auto;
 }
 
 .navbar-toggler {
@@ -29,6 +28,19 @@ header ul li {
     color: #fff;
     border-radius: 10%;
 }
+
+.navbar-nav .nav-item #signup {
+    color: #3f4A3C;
+    background-color: #ccff00;
+    border-color: #bbff00;
+}
+
+.navbar-nav .nav-item #signup:hover {
+    color: #fff;
+    background-color: #c0f000;
+    border-color: #bbff00;
+}
+
 
 /*--------------------------------------------------------------------------------------------------Carousel*/
 

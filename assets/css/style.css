@@ -35,7 +35,7 @@ header ul li {
     border-color: #bbff00;
 }
 
-.navbar-nav .nav-item #signup:hover {
+.navbar-nav .nav-item #signupbtn:hover {
     color: #fff;
     background-color: #c0f000;
     border-color: #bbff00;

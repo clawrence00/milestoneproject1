@@ -98,48 +98,26 @@ header ul li {
 }
 /*--------------------------------------------------------------------------------------------------Address*/
 
-#address {
+#location {
     background-color: #3f4A3C;
     min-height: 100px;
     color: #fff;
-    padding: 10px;
-    text-align: center;
+    padding: 0 20%;
+    text-align: start;  
 }
 
-#address .container {
-    text-align: start;
-    padding-top: 20px;
-}
-
-#address .container h3 {
-    text-align: center;
-}
-
-/* #address {
-    text-align: center;
-    background-color: #3f4A3C;
-    min-height: 120px;
-    color: #fff;
-}
-
-address {
-    margin: 0;
+/* @media (min-width: 903px) {
+      #location div flex: 1 0 0%;
 } */
-
-#gmap {
-    text-align: center;
-    background-color: #3f4A3C;
-    min-height: 120px;
-    color: #fff;
-}
 
 /*-------------------------------------------------------------------------------------------Membership form*/
 
 #signup {
-    text-align: center;
+    text-align: left;
     background-color: #fff;
     min-height: 120px;
     color: #3f4A3C;
+    padding: 0% 20%;
 }
 
 /*--------------------------------------------------------------------------------------------------Footer*/

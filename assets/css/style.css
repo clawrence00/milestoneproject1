@@ -85,6 +85,9 @@ header ul li {
 
 #address {
     text-align: center;
+    background-color: #3f4A3C;
+    min-height: 120px;
+    color: #fff;
 }
 
 #address address {
@@ -93,9 +96,19 @@ header ul li {
 
 #gmap {
     text-align: center;
-   height: 200px
+    background-color: #3f4A3C;
+    min-height: 120px;
+    color: #fff;
 }
 
+/*-------------------------------------------------------------------------------------------Membership form*/
+
+#signup {
+    text-align: center;
+    background-color: #fff;
+    min-height: 120px;
+    color: #3f4A3C;
+}
 
 /*--------------------------------------------------------------------------------------------------Footer*/
 

@@ -50,8 +50,6 @@ header ul li {
     padding: 10px;
 }
 
-
-
 /*--------------------------------------------------------------------------------------------------News*/
 .news {
     background-color: #3f4A3C;
@@ -75,7 +73,6 @@ header ul li {
     box-sizing: border-box;
 }
 
-
 .news a div {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 16px;
@@ -93,6 +90,7 @@ header ul li {
 
 #about .container {
     text-align: start;
+    padding-top: 20px;
 }
 
 #about .container h3 {
@@ -101,6 +99,23 @@ header ul li {
 /*--------------------------------------------------------------------------------------------------Address*/
 
 #address {
+    background-color: #3f4A3C;
+    min-height: 100px;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+#address .container {
+    text-align: start;
+    padding-top: 20px;
+}
+
+#address .container h3 {
+    text-align: center;
+}
+
+/* #address {
     text-align: center;
     background-color: #3f4A3C;
     min-height: 120px;
@@ -109,7 +124,7 @@ header ul li {
 
 address {
     margin: 0;
-}
+} */
 
 #gmap {
     text-align: center;

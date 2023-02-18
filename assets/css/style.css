@@ -29,18 +29,17 @@ header ul li {
     border-radius: 10%;
 }
 
-.navbar-nav .nav-item #signupbtn {
+#signupbtn {
     color: #3f4A3C;
     background-color: #ccff00;
     border-color: #bbff00;
 }
 
-.navbar-nav .nav-item #signupbtn:hover {
+#signupbtn:hover {
     color: #fff;
     background-color: #c0f000;
     border-color: #bbff00;
 }
-
 
 /*--------------------------------------------------------------------------------------------------Carousel*/
 
@@ -88,9 +87,13 @@ header ul li {
     text-align: center;
 }
 
+#address address {
+    text-align: left;
+}
 
 #gmap {
     text-align: center;
+   height: 200px
 }
 
 

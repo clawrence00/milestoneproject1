@@ -39,7 +39,9 @@
                                 <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="https://clubspark.lta.org.uk/WestNorfolkLawnTennisClub/Booking" target="_blank">Book a Court</a>
+                                <a class="nav-link"
+                                    href="https://clubspark.lta.org.uk/WestNorfolkLawnTennisClub/Booking"
+                                    target="_blank">Book a Court</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link btn btn-primary" id="signupbtn" href="#signup">Become a Member</a>
@@ -53,24 +55,55 @@
     <div class="container-flex">
         <div class="container" id="address">
             <h3>Find us at</h3>
-            <div class="container">
-            <div>West Norfolk Lawn Tennis Club</div>
-            <div>The Cricket Ground</div>
-            <div>North Runcton</div>
-            <div>Kings Lynn</div>
-            <div>Norfolk</div>
-            <div>PE33 0RA</div>
+            <address class=" flex-nowrap">
+                West Norfolk Lawn Tennis Club<br>
+                The Cricket Ground<br>
+                North Runcton<br>
+                Kings Lynn<br>
+                Norfolk<br>
+                PE33 0RA
+            </address>
         </div>
+        <div class="container-flex" id="gmap">
+            <iframe width="auto" height="200px" style="border:0" loading="lazy" allowfullscreen
+                src="https://www.google.com/maps/embed/v1/place?q=52.714700%2C%200.432884&key=AIzaSyDsBhTzBvUeD-xfktb1N5UoMxOLRN9EeKc"></iframe>
         </div>
-        <div class="container" id="gmap">
-            <iframe mwidth="600" height="450" style="border:0" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=52.714700%2C%200.432884&key=AIzaSyDsBhTzBvUeD-xfktb1N5UoMxOLRN9EeKc"></iframe>
-        </div>
-        <form id="signup" style="margin-top: 1000px;">
-        <fieldset>
-            <label for="firstname">First Name</label>
-            <input type="text" id="firtsname"/>
-        </fieldset>
-    </form>
+        <form id="signup">
+            <fieldset>
+                <legend>Want to join us? Fill out the new membership form below.</legend>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname"/>
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname"/>
+                <label for="btmno">BTM No.</label>
+                <input type="number" id="btmno"/><br>
+                <label for="email">Email</label>
+                <input type="email" id="email"/>
+                <label for="phone">Telephone</label>
+                <input type="number" id="phone"/><br>
+                <label for="address1">Address Line 1</label>
+                <input type="text" id="address1"/><br>
+                <label for="address2">Address Line 2</label>
+                <input type="text" id="address2"/><br>
+                <label for="address3">Address Line 3</label>
+                <input type="text" id="address3"/><br>
+                <label for="city">Town/City</label>
+                <input type="text" id="city"/><br>
+                <label for="postcode">Post Code</label>
+                <input type="text" id="postcode"/><br>
+                <h5>Membership Category:</h5><br>
+                <input type="radio" id="full" name="membership" value="full">
+                <label for="full">Full (£60)</label><br>
+                <input type="radio" id="under24" name="membership" value="under24">
+                <label for="under24">Under 24 (£20)</label><br>
+                <input type="radio" id="under16" name="membership" value="under16">
+                <label for="under16">Under 16 (£10)</label><br>
+                <input type="radio" id="family" name="membership" value="family">
+                <label for="family">Family (£100)</label><br>
+                <button type="reset" class="btn btn-secondary">Cancel</button>
+                <button type="submit" id="signupbtn" class="btn btn-primary">Submit</button>
+            </fieldset>
+        </form>
     </div>
 
     <footer>

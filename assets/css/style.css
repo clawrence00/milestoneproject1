@@ -90,8 +90,8 @@ header ul li {
     color: #fff;
 }
 
-#address address {
-    text-align: left;
+address {
+    margin: 0;
 }
 
 #gmap {

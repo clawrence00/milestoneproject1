@@ -106,10 +106,9 @@ header ul li {
     text-align: start;  
 }
 
-/* @media (min-width: 903px) {
-      #location div flex: 1 0 0%;
-} */
-
+#location .col-location {
+    padding: 0;
+}
 /*-------------------------------------------------------------------------------------------Membership form*/
 
 #signup {
@@ -118,6 +117,24 @@ header ul li {
     min-height: 120px;
     color: #3f4A3C;
     padding: 0% 20%;
+}
+
+#signup .g-3 {
+    margin-top: 0;
+}
+
+
+/* taken from w3 schools*/
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
 }
 
 /*--------------------------------------------------------------------------------------------------Footer*/
@@ -157,8 +174,15 @@ footer a div {
 
 /*-----------------------------------------------------------------------------------------------Media Queries*/
 
+/*col-md css used for custom media query at 903px make map move to next line and not distrub address lines*/
 @media screen and (min-width: 903px) {
 .col-location {
     flex: 1 0 0%;
 }
 }
+
+@media screen and (max-width: 1369px) {
+    #signup div {
+        display: block;
+    }
+    }

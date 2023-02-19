@@ -53,7 +53,7 @@
         </div>
     </header>
     <div class="container-flex">
-        <div class="row"  id="location">
+        <div class="row" id="location">
             <div class="col-location">
                 <address>
                     <h3>Find us at:</h3>
@@ -70,40 +70,105 @@
                     src="https://www.google.com/maps/embed/v1/place?q=52.714700%2C%200.432884&key=AIzaSyDsBhTzBvUeD-xfktb1N5UoMxOLRN9EeKc"></iframe>
             </div>
         </div>
-        <form id="signup" class="rounded">
+        <form id="signup" class="rounded membership-form">
             <fieldset>
                 <legend>Want to join us? Fill out the new membership form below.</legend>
-                <label for="fname">First Name</label>
-                <input type="text" id="fname" />
-                <label for="lname">Last Name</label>
-                <input type="text" id="lname" />
-                <label for="btmno">BTM No.</label>
-                <input type="number" id="btmno" /><br>
-                <label for="email">Email</label>
-                <input type="email" id="email" />
-                <label for="phone">Telephone</label>
-                <input type="number" id="phone" /><br>
-                <label for="address1">Address Line 1</label>
-                <input type="text" id="address1" /><br>
-                <label for="address2">Address Line 2</label>
-                <input type="text" id="address2" /><br>
-                <label for="address3">Address Line 3</label>
-                <input type="text" id="address3" /><br>
-                <label for="city">Town/City</label>
-                <input type="text" id="city" /><br>
-                <label for="postcode">Post Code</label>
-                <input type="text" id="postcode" /><br>
-                <h5>Membership Category:</h5><br>
+                <div class="row g-3 align-items-center">
+                    <div class="col-lg-1">
+                        <label for="fname">First Name</label>
+                    </div>
+                    <div class="col-auto">
+                        <input type="text" id="fname" required />
+                    </div>
+                    <div class="col-lg-1">
+                        <label for="lname">Last Name</label>
+                    </div>
+                    <div class="col-auto">
+                        <input type="text" id="lname" required />
+                    </div>
+                    <div class="col-lg-1">
+                        <label for="btmno">BTM No.</label>
+                    </div>
+                    <div class="col-auto">
+                        <input type="number" id="btmno" />
+                    </div>
+
+                </div>
+                <div class="row g-3 align-items-center">
+                <div class="col-lg-1">
+                    <label for="email">Email</label>
+                </div>
+                <div class="col-auto">
+                    <input type="email" id="email" required />
+                </div>
+                <div class="col-sm-1">
+                    <label for="phone">Telephone</label>
+                </div>
+                <div class="col-auto">
+                    <input type="tel" id="phone" pattern="[0-9]{11}" title="Telephone number (no spaces)" required />
+                </div>
+            </div>
+            <div class="row g-3 align-items-center">
+                <div class="col-lg-1">
+                    <label for="address1">Address Line 1</label>
+                </div>
+                <div class="col-auto">
+                    <input type="text" id="address1" required/>
+                </div>
+            </div>
+            <div class="row g-3 align-items-center">
+                <div class="col-lg-1">
+                    <label for="address2">Address Line 2</label>
+                </div>
+                <div class="col-auto">
+                    <input type="text" id="address2" required/>
+                </div>
+            </div>
+            <div class="row g-3 align-items-center">
+                <div class="col-lg-1">
+                    <label for="address3">Address Line 3</label>
+                </div>
+                <div class="col-auto">
+                    <input type="text" id="address3" />
+                </div>
+            </div>
+            <div class="row g-3 align-items-center">
+                <div class="col-lg-1">
+                    <label for="city">Town/City</label>
+                </div>
+                <div class="col-auto">
+                    <input type="text" id="city" required/>
+                </div>
+            </div>
+            <div class="row g-3 align-items-center">
+                <div class="col-lg-1">
+                    <label for="postcode">Post Code</label>
+                </div>
+                <div class="col-auto">
+                    <input type="text" id="postcode" required/>
+                </div>
+            </div>
+
+
+            <div class="row g-3 align-items-center">
+                <div class="col-lg-1">
+                <span>Membership Category:</span>
+
                 <input type="radio" id="full" name="membership" value="full">
-                <label for="full">Full (£60)</label><br>
+                <label for="full">Full (£60)</label>
+
                 <input type="radio" id="under24" name="membership" value="under24">
-                <label for="under24">Under 24 (£20)</label><br>
+                <label for="under24">Under 24 (£20)</label>
+                
                 <input type="radio" id="under16" name="membership" value="under16">
-                <label for="under16">Under 16 (£10)</label><br>
+                <label for="under16">Under 16 (£10)</label>
+
                 <input type="radio" id="family" name="membership" value="family">
-                <label for="family">Family (£100)</label><br>
+                <label for="family">Family (£100)</label>
+
                 <button type="reset" class="btn btn-secondary">Cancel</button>
                 <button type="submit" id="signupbtn" class="btn btn-primary">Submit</button>
+                </div>
             </fieldset>
         </form>
     </div>

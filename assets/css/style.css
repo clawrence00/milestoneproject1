@@ -102,7 +102,7 @@ header ul li {
     background-color: #3f4A3C;
     min-height: 100px;
     color: #fff;
-    padding: 0 20%;
+    padding: 20px 20%;
     text-align: start;  
 }
 
@@ -153,4 +153,12 @@ footer a div {
     font-size: 14px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 400;
+}
+
+/*-----------------------------------------------------------------------------------------------Media Queries*/
+
+@media screen and (min-width: 903px) {
+.col-location {
+    flex: 1 0 0%;
+}
 }

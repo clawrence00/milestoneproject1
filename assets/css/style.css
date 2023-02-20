@@ -153,12 +153,18 @@ footer a:hover {
 
 }
 
+/* transition taken from bootstraps nav-link class. Needed to add border radius to stop square appearing when easing out. Also required width and height. */
+
 footer a {
     color: #3f4A3C;
     background-color: #fff;
     text-decoration: none;
     font-size: 24px;
     padding: 18.815px 0;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
 
 footer a div {

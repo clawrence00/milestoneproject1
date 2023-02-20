@@ -97,6 +97,7 @@ header ul li {
 #about .container h3 {
     text-align: center;
 }
+
 /*--------------------------------------------------------------------------------------------------Address*/
 
 #location {
@@ -104,12 +105,13 @@ header ul li {
     min-height: 100px;
     color: #fff;
     padding: 20px 20%;
-    text-align: start;  
+    text-align: start;
 }
 
 #location .col-location {
     padding: 0;
 }
+
 /*-------------------------------------------------------------------------------------------Membership form*/
 
 #signup {
@@ -123,13 +125,13 @@ header ul li {
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 /* Firefox */
 input[type=number] {
-  -moz-appearance: textfield;
+    -moz-appearance: textfield;
 }
 
 /*--------------------------------------------------------------------------------------------------Footer*/
@@ -140,7 +142,6 @@ input[type=number] {
     text-align: center;
     padding: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
 }
 
 footer a:hover {
@@ -150,7 +151,6 @@ footer a:hover {
     border-radius: 50%;
     width: 80px;
     height: 80px;
-
 }
 
 /* transition taken from bootstraps nav-link class. Needed to add border radius to stop square appearing when easing out. Also required width and height. */
@@ -164,7 +164,7 @@ footer a {
     border-radius: 50%;
     width: 80px;
     height: 80px;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
 }
 
 footer a div {
@@ -175,15 +175,9 @@ footer a div {
 
 /*-----------------------------------------------------------------------------------------------Media Queries*/
 
-/*col-md css used for custom media query at 903px make map move to next line and not distrub address lines*/
+/*col-md css used for custom media query at 903px to make map move to next line and not distrub address lines*/
 @media screen and (min-width: 903px) {
-.col-location {
-    flex: 1 0 0%;
-}
-}
-
-/* @media screen and (max-width: 1369px) {
-    #signup div {
-        display: block;
+    .col-location {
+        flex: 1 0 0%;
     }
-    } */
+}

@@ -112,17 +112,11 @@ header ul li {
 /*-------------------------------------------------------------------------------------------Membership form*/
 
 #signup {
-    text-align: left;
     background-color: #fff;
     min-height: 120px;
     color: #3f4A3C;
     padding: 0% 20%;
 }
-
-#signup .g-3 {
-    margin-top: 0;
-}
-
 
 /* taken from w3 schools*/
 /* Chrome, Safari, Edge, Opera */
@@ -181,8 +175,8 @@ footer a div {
 }
 }
 
-@media screen and (max-width: 1369px) {
+/* @media screen and (max-width: 1369px) {
     #signup div {
         display: block;
     }
-    }
+    } */

@@ -70,104 +70,69 @@
                     src="https://www.google.com/maps/embed/v1/place?q=52.714700%2C%200.432884&key=AIzaSyDsBhTzBvUeD-xfktb1N5UoMxOLRN9EeKc"></iframe>
             </div>
         </div>
-        <form id="signup" class="rounded membership-form">
+        <form id="signup" class="row g-3">
             <fieldset>
                 <legend>Want to join us? Fill out the new membership form below.</legend>
-                <div class="row g-3 align-items-center">
-                    <div class="col-lg-1">
-                        <label for="fname">First Name</label>
-                    </div>
-                    <div class="col-auto">
-                        <input type="text" id="fname" required />
-                    </div>
-                    <div class="col-lg-1">
-                        <label for="lname">Last Name</label>
-                    </div>
-                    <div class="col-auto">
-                        <input type="text" id="lname" required />
-                    </div>
-                    <div class="col-lg-1">
-                        <label for="btmno">BTM No.</label>
-                    </div>
-                    <div class="col-auto">
-                        <input type="number" id="btmno" />
-                    </div>
-
+                <div class="col">
+                    <label for="fname" class="form-label">First Name</label>
+                    <input type="text" id="fname" required class="form-control"/>
                 </div>
-                <div class="row g-3 align-items-center">
-                <div class="col-lg-1">
-                    <label for="email">Email</label>
+                <div class="col">
+                    <label for="lname" class="form-label">Last Name</label>
+                    <input type="text" id="lname" required class="form-control"/>
                 </div>
-                <div class="col-auto">
-                    <input type="email" id="email" required />
+                <div class="col">
+                    <label for="btmno" class="form-label">BTM No.</label>
+                    <input type="number" id="btmno" class="form-control"/>
                 </div>
-                <div class="col-sm-1">
-                    <label for="phone">Telephone</label>
+                <div class="col">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" id="email" required class="form-control"/>
                 </div>
-                <div class="col-auto">
-                    <input type="tel" id="phone" pattern="[0-9]{11}" title="Telephone number (no spaces)" required />
+                <div class="col">
+                    <label for="phone" class="form-label">Telephone</label>
+                    <input type="tel" id="phone" pattern="[0-9]{11}" title="Telephone number (no spaces)" required class="form-control"/>
                 </div>
-            </div>
-            <div class="row g-3 align-items-center">
-                <div class="col-lg-1">
-                    <label for="address1">Address Line 1</label>
+                <div class="col">
+                    <label for="address1" class="form-label">Address Line 1</label>
+                    <input type="text" id="address1" required class="form-control"/>
                 </div>
-                <div class="col-auto">
-                    <input type="text" id="address1" required/>
+                <div class="col">
+                    <label for="address2" class="form-label">Address Line 2</label>
+                    <input type="text" id="address2" required class="form-control"/>
                 </div>
-            </div>
-            <div class="row g-3 align-items-center">
-                <div class="col-lg-1">
-                    <label for="address2">Address Line 2</label>
+                <div class="col">
+                    <label for="address3" class="form-label">Address Line 3</label>
+                    <input type="text" id="address3" class="form-control"/>
                 </div>
-                <div class="col-auto">
-                    <input type="text" id="address2" required/>
+                <div class="col">
+                    <label for="city" class="form-label">Town/City</label>
+                    <input type="text" id="city" required class="form-control"/>
                 </div>
-            </div>
-            <div class="row g-3 align-items-center">
-                <div class="col-lg-1">
-                    <label for="address3">Address Line 3</label>
+                <div class="col">
+                    <label for="postcode" class="form-label">Post Code</label>
+                    <input type="text" id="postcode" required class="form-control"/>
                 </div>
-                <div class="col-auto">
-                    <input type="text" id="address3" />
-                </div>
-            </div>
-            <div class="row g-3 align-items-center">
-                <div class="col-lg-1">
-                    <label for="city">Town/City</label>
-                </div>
-                <div class="col-auto">
-                    <input type="text" id="city" required/>
-                </div>
-            </div>
-            <div class="row g-3 align-items-center">
-                <div class="col-lg-1">
-                    <label for="postcode">Post Code</label>
-                </div>
-                <div class="col-auto">
-                    <input type="text" id="postcode" required/>
-                </div>
-            </div>
-
-
-            <div class="row g-3 align-items-center">
-                <div class="col-lg-1">
                 <span>Membership Category:</span>
-
-                <input type="radio" id="full" name="membership" value="full">
-                <label for="full">Full (£60)</label>
-
-                <input type="radio" id="under24" name="membership" value="under24">
-                <label for="under24">Under 24 (£20)</label>
-                
-                <input type="radio" id="under16" name="membership" value="under16">
-                <label for="under16">Under 16 (£10)</label>
-
-                <input type="radio" id="family" name="membership" value="family">
-                <label for="family">Family (£100)</label>
-
-                <button type="reset" class="btn btn-secondary">Cancel</button>
-                <button type="submit" id="signupbtn" class="btn btn-primary">Submit</button>
+                <div class="col form-check">
+                    <input type="radio" id="full" name="membership" value="full" class="form-check-input">
+                    <label for="full" class="form-check-label">Full (£60)</label>
+                </div>
+                <div class="col form-check">
+                    <input type="radio" id="under24" name="membership" value="under24" class="form-check-input">
+                    <label for="under24" class="form-check-label">Under 24 (£20)</label>
+                </div>
+                <div class="col form-check">
+                    <input type="radio" id="under16" name="membership" value="under16" class="form-check-input">
+                    <label for="under16" class="form-check-label">Under 16 (£10)</label>
+                </div>
+                <div class="col form-check">
+                    <input type="radio" id="family" name="membership" value="family" class="form-check-input">
+                    <label for="family" class="form-check-label">Family (£100)</label>
+                </div>
+                <div>
+                    <button type="reset" class="btn btn-secondary btn-lg">Cancel</button>
+                    <button type="submit" id="signupbtn" class="btn btn-primary btn-lg">Submit</button>
                 </div>
             </fieldset>
         </form>

@@ -112,6 +112,22 @@ header ul li {
     padding: 0;
 }
 
+/* CSS styling taken from https://blog.duda.co/responsive-google-maps-for-your-website credit OLYMPIA CASWELL*/
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
 /*-------------------------------------------------------------------------------------------Membership form*/
 
 #signup {

@@ -30,13 +30,13 @@ header ul li {
     border-radius: 0.375rem;
 }
 
-#signupbtn {
+#signupbtn, #submitbtn {
     color: #3f4A3C;
     background-color: #ccff00;
     border-color: #bbff00;
 }
 
-#signupbtn:hover {
+#signupbtn:hover, #submitbtn:hover {
     color: #fff;
     background-color: #c0f000;
     border-color: #bbff00;

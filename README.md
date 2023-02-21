@@ -61,3 +61,30 @@ A carousel is used on the home page showcasing all images used in the website. E
 The active nav-item has had the border CSS from Bootstrap's 'btn' class applied to give it the same look as the sign up button.
 #### Images
 The images have been taken from the club's [Facebook page](https://www.facebook.com/groups/305550273422129). Permission to use them was given by the page's admin, Jeremy Hodges.
+
+### Credits
+
+#### Code
+
+#### Media
+
+#### Content
+
+### Testing
+
+#### Bugs & Fixes
+
+#### Validation
+
+### Deployment
+The website was deployed using GitHub Pages. Here are the following steps required to deploy the site;
+
+1) Select the repository.
+2) In the repository navigation click 'Settings'.
+3) In the list on the left, under 'Code and automation' select 'Pages'.
+4) Under 'Build and deployment', 'Source' should be 'Deploy from branch'.
+5) Under 'Build and deployment', 'Branch' select 'main'. The folder should be /(root). Click 'Save'.
+
+Your site should now be live and hosted by GitHub Pages. It may take a minute or two for the site to become available.
+
+To clone this repository 

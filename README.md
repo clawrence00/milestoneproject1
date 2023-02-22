@@ -1,7 +1,7 @@
 # Milestone Project 1 - West Norfolk Lawn Tennis Club website
 
 ![Mockup on different screen sizes of home page](documentation/mockup.png)
-Welcome to my first milestone project with the Code Institute. The purpose of this project is to demonstrate the skills and knowledge I have learnt so far in the form of a static website, built with HTML and CSS and using Bootstrap as a framework.
+Welcome to my first milestone project with the Code Institute. The purpose of this project is to demonstrate the skills and knowledge I have learnt so far in the form of a static website, built with HTML and CSS and using Bootstrap as a framework. Please find my deployed site [here](https://clawrence00.github.io/milestoneproject1/).
 
 ## UX & UI
 ### Project Goals

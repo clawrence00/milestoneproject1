@@ -32,20 +32,20 @@ In order to create an easy to use website a navigation bar will be accesible at 
 Before any code was written wireframes were created using [Balsamiq](https://balsamiq.com/) for each page on three different screen sizes; mobile, tablet and desktop.
 
 #### Mobile Design
-- [Home](https://github.com/clawrence00/milestoneproject1/blob/main/documentation/MobileHome.png)
-- [About](https://github.com/clawrence00/milestoneproject1/blob/main/documentation/MobileAbout.png)
-- [Facilities](https://github.com/clawrence00/milestoneproject1/blob/main/documentation/MobileFacilities.png)
-- [Contact](https://github.com/clawrence00/milestoneproject1/blob/main/documentation/MobileContact.png)
+- [Home](https://github.com/clawrence00/milestoneproject1/blob/main/documentation/wireframes/mobilehome.png)
+- [About](https://github.com/clawrence00/milestoneproject1/blob/main/documentation/wireframes/mobileabout.png)
+- [Facilities](https://github.com/clawrence00/milestoneproject1/blob/main/documentation/wireframes/mobilefacilities.png)
+- [Contact](https://github.com/clawrence00/milestoneproject1/blob/main/documentation/wireframes/mobilecontact.png)
 #### Tablet Design
-- [Home](https://github.com/clawrence00/milestoneproject1/blob/main/documentation/TabletHome.png)
-- [About](https://github.com/clawrence00/milestoneproject1/blob/main/documentation/TabletAbout.png)
-- [Facilities](https://github.com/clawrence00/milestoneproject1/blob/main/documentation/TabletFacilities.png)
-- [Contact](https://github.com/clawrence00/milestoneproject1/blob/main/documentation/TabletContact.png)
+- [Home](https://github.com/clawrence00/milestoneproject1/blob/main/documentation/wireframes/tablethome.png)
+- [About](https://github.com/clawrence00/milestoneproject1/blob/main/documentation/wireframes/tabletabout.png)
+- [Facilities](https://github.com/clawrence00/milestoneproject1/blob/main/documentation/wireframes/tabletfacilities.png)
+- [Contact](https://github.com/clawrence00/milestoneproject1/blob/main/documentation/wireframes/tabletcontact.png)
 #### Desktop Design
-- [Home](https://github.com/clawrence00/milestoneproject1/blob/main/documentation/DesktopHome.png)
-- [About](https://github.com/clawrence00/milestoneproject1/blob/main/documentation/DesktopAbout.png)
-- [Facilities](https://github.com/clawrence00/milestoneproject1/blob/main/documentation/DesktopFacilities.png)
-- [Contact](https://github.com/clawrence00/milestoneproject1/blob/main/documentation/DesktopContact.png)
+- [Home](https://github.com/clawrence00/milestoneproject1/blob/main/documentation/wireframes/desktophome.png)
+- [About](https://github.com/clawrence00/milestoneproject1/blob/main/documentation/wireframes/desktopabout.png)
+- [Facilities](https://github.com/clawrence00/milestoneproject1/blob/main/documentation/wireframes/desktopfacilities.png)
+- [Contact](https://github.com/clawrence00/milestoneproject1/blob/main/documentation/wireframes/desktopcontact.png)
 
 ### Design Choices
 The website is for a tennis club that will be used by people of different ages and must have a professional quality to it. The following design choices have been made based on this.

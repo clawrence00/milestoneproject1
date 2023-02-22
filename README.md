@@ -77,7 +77,7 @@ The images have been taken from the club's [Facebook page](https://www.facebook.
 #### Validation
 
 ### Deployment
-The website was deployed using GitHub Pages. Here are the following steps required to deploy the site;
+The website was deployed using GitHub Pages. Here are the following steps required to **deploy the site**;
 
 1) Select the repository.
 2) In the repository navigation click 'Settings'.
@@ -87,4 +87,12 @@ The website was deployed using GitHub Pages. Here are the following steps requir
 
 Your site should now be live and hosted by GitHub Pages. It may take a minute or two for the site to become available.
 
-To clone this repository 
+To **clone this repository** ;
+
+1) on GitHub.com select the main page of the repository.
+2) Click the green 'Code' button.
+3) Select HTTPS. Click the clipboard icon to copy the repository URL.
+4) Create a location on you machine where you want the repository to be cloned.
+5) Using Git Bash change the working directory to the location where you want the repository to be cloned.
+6) Type _git clone_ and paste the URL of the repository, copied in step 3.
+7) Press enter. A local clone has now been created on your machine.  

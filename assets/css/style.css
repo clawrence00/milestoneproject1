@@ -188,12 +188,3 @@ footer a div {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 400;
 }
-
-/*-----------------------------------------------------------------------------------------------Media Queries*/
-
-/*col-md css used for custom media query at 903px to make map move to next line and not distrub address lines*/
-@media screen and (min-width: 903px) {
-    .col-location {
-        flex: 1 0 0%;
-    }
-}

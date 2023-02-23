@@ -103,6 +103,8 @@ Markup validation has been performed on all pages using the [W3C markup validati
 
 CSS validation has been performed using the [W3C CSS validation service](https://jigsaw.w3.org/css-validator/). No issues were found.
 
+
+
 ### Deployment
 The website was deployed using GitHub Pages. Here are the following steps required to **deploy the site**;
 

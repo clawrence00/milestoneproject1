@@ -96,7 +96,12 @@ The project has been tested througout developement using Chrome DevTools. The to
 - During the development of the footer and social media links it was found that the word 'ClubSpark' was bold. This was due to the font weight used by Font Awesome for the icon. To fix this the font weight for divs in the footer were styled to be 400 (normal).
 - The transition CSS from bootstraps nav-links was added to the social media links. When hovering over a circle border appears but after adding the transition when moving the cursor off the link the border transitioned to a square which looked odd. The fix for this was to add a border radius, width and height to the none-hover CSS for the social links. This also fixed an issue where the hover function would make it appear that the social link was pushing the other links aside, again this was due to the social link not have a width or height when not in a hover state.
 - In mobile view the navigation menu toggler button would move to the next line, underneath the logo. This was intended to stay on the same line. The fix for this was to add the class _flex_nowrap_ to the div that contains the logo and toggler. This brought a new issue to the page, when the toggle button was pressed the menu would then stay on the same line. The entire nav bar was wrapped in a div with the class _container-fluid_ which solved the issue.
+- Following deployment one image would not load in the index page carousel and on the about page. This was due to a file path error where a forward slash was added before the file path. The code was copied from the index page to the about page, therefore copying the error. The file path was corrected and the image now works on both pages.
+- Again, following deployment, the 'Become a Member' button did not work. This was due to a bad file directory path in the navigation link. Correcting this solved the issue.
 #### Validation
+Markup validation has been performed on all pages using the [W3C markup validation service](https://validator.w3.org/).  Several issues occurred on the pages. The newsletter PDF documents file names required renaming as they contained spaces which can cause cross-platform issues. Duplicate ID names had been found. These were either removed as they weren't necessary or given a unique ID.
+
+CSS validation has been performed using the [W3C CSS validation service](https://jigsaw.w3.org/css-validator/). No issues were found.
 
 ### Deployment
 The website was deployed using GitHub Pages. Here are the following steps required to **deploy the site**;
@@ -109,7 +114,7 @@ The website was deployed using GitHub Pages. Here are the following steps requir
 
 Your site should now be live and hosted by GitHub Pages. It may take a minute or two for the site to become available.
 
-To **clone this repository** ;
+To **clone this repository**;
 
 1) on GitHub.com select the main page of the repository.
 2) Click the green 'Code' button.
